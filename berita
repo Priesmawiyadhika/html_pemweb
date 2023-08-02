@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terkini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .news-item {
+            border-bottom: 1px solid #ccc;
+            padding: 1rem 0;
+        }
+
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .news-item h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .news-item p {
+            margin: 0;
+            color: #666;
+        }
+
+        .news-item .date {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berita Terkini</h1>
+    </header>
+    <div class="container">
+        <div class="news-item">
+            <img src="gambar-berita-1.jpg" alt="Gambar Berita 1">
+            <h2>JADWAL KONSER BLACKPINK IN INDONESIA</h2>
+            <p class="date">Tanggal: 28 Februari 2023</p>
+            <p>
+                Konser BLACKPINK pada hari kedua tanggal 12 Maret 2023 akan dimulai lebih awal 30 menit ketimbang hari pertama. 
+            </p>
+        </div>
+        <div class="news-item">
+            <img src="gambar-berita-2.jpg" alt="Gambar Berita 2">
+            <h2>BLACKPINK IN JAKARTA</h2>
+            <p class="date">Tanggal: 8 Maret 2023</p>
+            <p>
+                  hari konser BLACKPINK di Jakarta 2023 akan berlangsung pada tanggal Sabtu dan Minggu, 11-12 Maret 2023. Jadwal atau rundown Konser BLACKPINK  di stadium utama Gelora Bung Karno (GBK) pun telah diumumkan pihak promotor. Girl group beranggotakan Jennie, Lisa, Rose, dan Jisoo ini siap menggebrak Tanah Air dengan berbagai penampilan mereka. .
+            </p>
+        </div>
+        <!-- Tambahkan lebih banyak berita sesuai kebutuhan -->
+    </div>
+</body>
+</html>
